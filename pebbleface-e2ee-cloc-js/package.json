@@ -1,0 +1,40 @@
+{
+  "name": "pebbleface-e2ee-cloc-js",
+  "author": "jomapp",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-watchface,e2ee,encrypted"
+  ],
+  "private": true,
+  "dependencies": {
+    "@moddable/pebbleproxy": "^0.1.8",
+    "@rebble/clay": "^1.0.8"
+  },
+  "pebble": {
+    "displayName": "pebbleface-e2ee-cloc-js",
+    "uuid": "53a6b48b-0c84-4b62-b928-9d15db722c7c",
+    "projectType": "moddable",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": [
+      "BackgroundColor",
+      "TextColor",
+      "Use24Hour",
+      "AnimateMinuteChange",
+      "AnimationSpeed"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}

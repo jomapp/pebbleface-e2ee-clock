@@ -1,0 +1,44 @@
+{
+  "name": "pebbleface-e2ee-clock-c",
+  "author": "jomapp",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-watchface,e2ee,encrypted"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.3"
+  },
+  "pebble": {
+    "displayName": "E2EE Clock",
+    "uuid": "827a334a-b2bd-4624-94a4-b19ccb037155",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": {
+      "BackgroundColor": 0,
+      "TextColor": 1,
+      "HourFormat": 2
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_ENCRYPTION_8",
+          "file": "MajorMonoDisplay-Regular.ttf",
+          "compatibility": "3.0"
+        }
+      ]
+    }
+  }
+}
