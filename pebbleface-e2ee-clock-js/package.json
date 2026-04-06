@@ -1,5 +1,5 @@
 {
-  "name": "pebbleface-e2ee-cloc-js",
+  "name": "pebbleface-e2ee-clock-js",
   "author": "jomapp",
   "version": "1.0.0",
   "keywords": [
@@ -11,7 +11,7 @@
     "@rebble/clay": "^1.0.8"
   },
   "pebble": {
-    "displayName": "pebbleface-e2ee-cloc-js",
+    "displayName": "pebbleface-e2ee-clock-js",
     "uuid": "53a6b48b-0c84-4b62-b928-9d15db722c7c",
     "projectType": "moddable",
     "sdkVersion": "3",
