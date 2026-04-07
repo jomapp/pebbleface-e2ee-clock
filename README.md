@@ -1,9 +1,13 @@
+
+
+![Repebble appstore banner for e2ee clock](https://apps.repebble.com/og/bc53387be05547889beabe73.png)
+
 # E2EE Clock
 
 Simple watchface featuring an "end-to-end encrypted" (E2EE) style clock!
 
-Bold Aesthetic: Four striking digits rendered through a random ciphertext effect. 🔐
-Smooth Motion: Easily configurable with a beautiful encryption animation.
+- [x] Bold Aesthetic: Four striking digits rendered through a random ciphertext effect. 🔐
+- [x] Smooth Motion: Easily configurable with a beautiful encryption animation.
 
 I created this watchface to raise awareness for end-to-end encryption—the only standard that truly protects our privacy.
 
